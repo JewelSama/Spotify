@@ -4,10 +4,10 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         // margin: 10,
         position: 'absolute',
-        bottom: 50,
+        bottom: 49,
         width: "100%",
-        borderWidth: 1,
-        // borderColor: 'black',
+        borderWidth: 0.2,
+        borderColor: 'grey',
         alignItems: 'center',
     },
     rightContainer:{
