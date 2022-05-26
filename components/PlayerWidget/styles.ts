@@ -2,15 +2,36 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     container:{
         flexDirection: 'row',
-        margin: 10,
+        // margin: 10,
+        position: 'absolute',
+        bottom: 50,
+        width: "100%",
+        borderWidth: 1,
+        // borderColor: 'black',
+        alignItems: 'center',
     },
     rightContainer:{
-        justifyContent: 'space-around',
-        marginLeft: 15,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        flex: 1,
     },
+    nameContainer:{
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    iconContainer:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        width: 100,
+        justifyContent: 'space-around'
+    },
+
+   
     title:{
         fontSize: 18,
-        marginBottom: -15
+        // marginBottom: -15,
+        fontWeight: 'bold',
+        margin: 10
     },
     artist:{
         fontSize: 14,
@@ -18,6 +39,7 @@ const styles = StyleSheet.create({
     image:{
         width: 65,
         height: 65,
+        marginRight: 10
     }
 })
 
