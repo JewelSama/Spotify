@@ -21,7 +21,8 @@ const AlbumHeader = (props: AlbumHeaderProps) => {
 
         <View style={styles.creatorContainer}>
             <Text style={styles.creator}>By {album.by}</Text>
-            <Text style={styles.likes}>{album.numberOfLikes} Likes</Text> 
+            <View style={styles.dot}></View>
+            <Text style={styles.likes}>{album.numberOfLikes}K Likes</Text> 
         </View>
 
         <TouchableOpacity>

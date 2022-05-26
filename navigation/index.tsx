@@ -44,7 +44,11 @@ function RootNavigator() {
       {/* <Stack.Group screenOptions={{ presentation: 'modal' }}> */}
         {/* <Stack.Screen name="Modal" component={ModalScreen} /> */}
       {/* </Stack.Group> */}
-        <Stack.Screen name="AlbumScreen" component={AlbumScreen} />
+        <Stack.Screen name="AlbumScreen" component={AlbumScreen} 
+          options={{
+            title: 'Album'
+          }}
+        />
 
 
     </Stack.Navigator>
