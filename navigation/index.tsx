@@ -91,6 +91,7 @@ function BottomTabNavigator() {
         name="Home"
         component={HomeScreen}
         options={{
+          // headerShown: tru
           title: 'Home',
           tabBarIcon: ({ color }) => <Entypo name="home" size={30} style={{marginBottom: -3}} color={color} />,
         }}
