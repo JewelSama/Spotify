@@ -38,4 +38,13 @@ export type Album = {
   id: string;
   imageUri: string;
   artistsHeadline: string;
-}
+  name: string;
+};
+export type Song={
+  id: string;
+  imageUri: string;
+  title: string;
+  artist: string;
+  by: string;
+  numberOfLikes: number;
+};
