@@ -19,10 +19,10 @@ export default function HomeScreen({ navigation }: RootTabScreenProps<'HomeScree
             <AlbumCategory 
               title={item.title} 
               albums={item.albums}
-              keyExtractor={ (item) => item.id}
               />
-          )
-        }
+          )}
+              keyExtractor={ (item) => item.id}
+
         />
 
 
